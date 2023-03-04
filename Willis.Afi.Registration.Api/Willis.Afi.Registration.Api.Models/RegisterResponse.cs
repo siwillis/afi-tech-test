@@ -8,5 +8,6 @@ namespace Willis.Afi.Registration.Api.Models
 {
     public class RegisterResponse
     {
+        public int CustomerId { get; set; }
     }
 }

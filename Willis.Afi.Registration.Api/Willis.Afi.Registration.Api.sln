@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willis.Afi.Registration.Api
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willis.Afi.Registration.Api.Models", "Willis.Afi.Registration.Api.Models\Willis.Afi.Registration.Api.Models.csproj", "{842E7506-287C-48AA-9A02-97CC543AAFB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willis.Afi.Registration.Api.Services", "Willis.Afi.Registration.Api.Services\Willis.Afi.Registration.Api.Services.csproj", "{C2C1E32F-E15B-453B-8898-86D70958A31D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{842E7506-287C-48AA-9A02-97CC543AAFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{842E7506-287C-48AA-9A02-97CC543AAFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{842E7506-287C-48AA-9A02-97CC543AAFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C1E32F-E15B-453B-8898-86D70958A31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C1E32F-E15B-453B-8898-86D70958A31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C1E32F-E15B-453B-8898-86D70958A31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C1E32F-E15B-453B-8898-86D70958A31D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

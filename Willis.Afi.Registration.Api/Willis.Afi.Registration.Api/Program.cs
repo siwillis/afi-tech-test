@@ -1,3 +1,6 @@
+using Microsoft.Extensions.Logging;
+using Willis.Afi.Registration.Api.ErrorHandling;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,6 +18,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.ConfigureExceptionHandler(app.Logger);
 
 app.UseHttpsRedirection();
 
