@@ -43,6 +43,9 @@ namespace Willis.Afi.Registration.Api.Tests.IntegrationTests
             var response = client != null ? await client.PostAsync("/api/customer/register", content) : null;
             //Assert
             response?.EnsureSuccessStatusCode();
+            var responseContent = response != null ? await response.Content.ReadAsStringAsync() : string.Empty;
+            var registerResponse = JsonConvert.DeserializeObject<RegisterResponse>(responseContent);
+            Assert.IsTrue(registerResponse.CustomerId > 0);
         }
     }
 }
