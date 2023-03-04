@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willis.Afi.Registration.Api", "Willis.Afi.Registration.Api\Willis.Afi.Registration.Api.csproj", "{C015634C-A64A-4070-8F67-EF73267D368C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willis.Afi.Registration.Api.Tests", "Willis.Afi.Registration.Api.Tests\Willis.Afi.Registration.Api.Tests.csproj", "{73C62A23-8972-41B0-8A55-3AA4E643A1A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willis.Afi.Registration.Api.Models", "Willis.Afi.Registration.Api.Models\Willis.Afi.Registration.Api.Models.csproj", "{842E7506-287C-48AA-9A02-97CC543AAFB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C015634C-A64A-4070-8F67-EF73267D368C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C015634C-A64A-4070-8F67-EF73267D368C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C015634C-A64A-4070-8F67-EF73267D368C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C62A23-8972-41B0-8A55-3AA4E643A1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C62A23-8972-41B0-8A55-3AA4E643A1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C62A23-8972-41B0-8A55-3AA4E643A1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C62A23-8972-41B0-8A55-3AA4E643A1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842E7506-287C-48AA-9A02-97CC543AAFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842E7506-287C-48AA-9A02-97CC543AAFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842E7506-287C-48AA-9A02-97CC543AAFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842E7506-287C-48AA-9A02-97CC543AAFB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
