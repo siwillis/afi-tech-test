@@ -25,6 +25,10 @@ namespace Willis.Afi.Registration.Api.Tests.IntegrationTests
             return new RegisterRequest()
             {
                 FirstName = "Test",
+                LastName = "User",
+                DateOfBirth = DateTime.Now.AddYears(-20),
+                ReferenceNumber = "XY-987654",
+                EmailAddress = "test.user@test.com"
             };
         }
 
